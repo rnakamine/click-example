@@ -3,7 +3,7 @@ Example of using the CLICK package
 
 ## Usage
 
-- execute hello.py
+execute hello.py
 ```sh
 $ python hello.py --help
 Usage: hello.py [OPTIONS]
