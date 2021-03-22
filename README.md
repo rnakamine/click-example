@@ -3,7 +3,7 @@ Example of using the CLICK package
 
 ## Usage
 
-### Hello World
+Hello World
 ```sh
 $ python hello.py --help
 Usage: hello.py [OPTIONS]
@@ -12,7 +12,7 @@ Options:
   --help  Show this message and exit.
 ```
 
-### Add Option
+Add Option
 ```sh
 $ python option.py --count 3 -n Ryo
 Hello Ryo
