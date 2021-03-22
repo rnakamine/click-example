@@ -62,7 +62,7 @@ Error: Missing argument 'NAME'.
 subcommand.py
 ```sh
 $ python subcommand.py
-Usage: group.py [OPTIONS] COMMAND [ARGS]...
+Usage: subcommand.py [OPTIONS] COMMAND [ARGS]...
 
 Options:
   --help  Show this message and exit.
