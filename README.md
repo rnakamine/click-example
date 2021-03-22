@@ -35,7 +35,7 @@ Options:
 ```
 
 ### Add Arguments
-[argments.py](argments.py)
+[arguments.py](arguments.py)
 ```sh
 $ python arguments.py Ryo
 Hello, Ryo
