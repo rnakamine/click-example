@@ -19,6 +19,7 @@ Hello Ryo
 Hello Ryo
 Hello Ryo
 ```
+
 ```sh
 $ python option.py --help
 Usage: option.py [OPTIONS]
@@ -37,7 +38,7 @@ $ python arguments.py Ryo
 Hello, Ryo
 ```
 
-```
+```sh
 $ python arguments.py --help
 Usage: arguments.py [OPTIONS] NAME
 
@@ -53,3 +54,27 @@ Try 'arguments.py --help' for help.
 
 Error: Missing argument 'NAME'.
 ```
+
+### Add Subcommand
+```sh
+$ python group.py
+Usage: group.py [OPTIONS] COMMAND [ARGS]...
+
+Options:
+  --help  Show this message and exit.
+
+Commands:
+  command1
+  command2
+```
+
+```sh
+$ python group.py command1
+execute command1
+```
+
+```sh
+$ python group.py command2
+execute command2
+```
+
